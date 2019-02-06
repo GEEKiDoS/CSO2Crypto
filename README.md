@@ -2,7 +2,7 @@
 Encrypt or Decrypt the 'e' files of CSO2 like ```.etxt``` ```.ecsv``` ```.elo``` ETC
 
 ## How to use
-Just drag the file(s) you want to encrypt/decrypt to the exe, and you are good to go!
+Just drag the file(s) you want to encrypt/decrypt on the exe, and you are good to go!
 
 ## Download 
 You can download it [here](https://github.com/GEEKiDoS/CSO2Crypto/releases/latest).
