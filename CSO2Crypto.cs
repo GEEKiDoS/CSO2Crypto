@@ -58,7 +58,7 @@ namespace CSO2Encrypt
                     rijndaelManaged.Mode = CipherMode.CBC;
 
                     rijndaelManaged.IV = s_EmptyIv16;
-                    rijndaelManaged.Key = GeneratePkgListKey(3, fileName);
+                    rijndaelManaged.Key = GeneratePkgListKey(flag, fileName);
 
                     encryptor = rijndaelManaged.CreateEncryptor();
                     break;
@@ -106,7 +106,7 @@ namespace CSO2Encrypt
                     rijndaelManaged.Mode = CipherMode.CBC;
 
                     rijndaelManaged.IV = s_EmptyIv16;
-                    rijndaelManaged.Key = GeneratePkgListKey(3, fileName);
+                    rijndaelManaged.Key = GeneratePkgListKey(flag, fileName);
 
                     decryptor = rijndaelManaged.CreateDecryptor();
                     break;
